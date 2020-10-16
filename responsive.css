@@ -1,0 +1,233 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+   .container{
+    width: 100%;
+    margin-bottom: 100px;
+   }
+
+   .header-right{
+       font-size: 12px;
+       padding-right: 20px;
+       display: block;
+       margin: 0;
+       justify-content: flex-end;
+   }
+
+   .main-right img{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 180px;
+    }
+
+ .section1 {
+    text-align: left;
+  }
+  
+  .section1 h1 {
+    padding-left: 3px;
+  }
+  
+  .section1 p {
+    padding-right: 20px;
+  }
+
+  .section1 b{
+    padding-right: 20px;
+  }
+
+  .section1-left img{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 180px;
+  }
+
+  .section2-title{
+    padding-right: 730px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .information{
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .information .info h4{
+      padding-left: 30px;
+      text-align: left;
+        }
+
+    .information .info h4 ul li{
+        padding-left: 50px;
+        text-align: right;
+              }
+
+  .information .info2 ul li{
+    padding-right: 20px;
+    }
+    
+    .information .info3{
+        padding-right: 15px;
+    }
+
+    .information ul li{ 
+        padding-left: 20px;
+        }
+
+.virus-big{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    float: left;
+    }
+
+.virus-small{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    }
+
+    footer{
+        text-align: center ;
+    }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none ;
+  }
+
+  .fa{
+    visibility: visible;
+    padding-right: 20px;
+    }
+
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .main-right img{
+     margin: 0 auto;
+     position: relative;
+     width: 100%;
+     height: 100%;
+     padding-top: 180px;
+  }
+  
+  .section1 {
+    text-align: left;
+  }
+  
+  .section1 h1 {
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 3px;
+  }
+  
+  .section1 p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 20px;
+  }
+
+  .section1 b{
+    padding-right: 20px;
+  }
+
+  .section1-left img{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 180px;
+  }
+
+  .section2-title{
+    padding-right: 330px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .information{
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .information .info h4{
+      padding-left: 20px;
+      text-align: left;
+  }
+
+  .information .info2 ul li{
+    padding-right: 20px;
+}
+    
+    .information .info3{
+        padding-right: 15px;
+}
+
+    .information ul li{ 
+        padding-right: 20px;
+}
+
+.rec1{
+    margin: 0 auto;
+    position: relative;
+    }
+
+.virus-big{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.virus-small{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.panel{
+    margin: 0 auto;
+    position: relative;
+    width: 10px;
+    text-align: center;
+}
+
+.panel img{
+   width: 800%;
+}
+.conDonasi{
+    margin: 0px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+footer{
+    text-align: center ;
+    width: 100px;
+}
+
+.ft{
+    visibility: hidden;
+}
+
+
+}
